@@ -3,8 +3,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 10f;
-    public float turnSpeed = 20f;
+    [SerializeField]public float speed = 10f;
+    [SerializeField]public float turnSpeed = 20f;
     public InputAction moveAction;
     void Start()
     {
